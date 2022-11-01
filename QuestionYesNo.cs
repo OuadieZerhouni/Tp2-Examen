@@ -4,6 +4,7 @@
  * Purpose: Definition of the Class Examen
  ***********************************************************************/
 using System;
+using  Question;
 
 public class QuestionYesNo : Question
 {

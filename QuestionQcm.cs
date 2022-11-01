@@ -5,6 +5,7 @@
  ***********************************************************************/
 
 using System;
+using  Question;
 
 public class QuestionQcm : Question
 {

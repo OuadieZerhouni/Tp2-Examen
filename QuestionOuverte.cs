@@ -5,11 +5,19 @@
  ***********************************************************************/
 
 using System;
-using static Question;
+using  Question;
+using  ReponseOuverte;
 
 
 public class QuestionOuverte:Question
 {
-   private ReponseOuverte Reponse;
+   private ReponseOuverte Reponse ;
+   private ReponseOuverte ReponseVrais ;
+
+    public QuestionOuverte(string ReponseVrais):basr()
+    {
+
+    }
+
 
 }
