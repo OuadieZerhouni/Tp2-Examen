@@ -12,4 +12,12 @@ public class QuestionQcm : Question
    private string array Propositions;
    private ReponseQcm Reponse;
 
+    public static void SetReponse(ReponseQcm Reponse)
+    {
+        this.Reponse = Reponse;
+    }
+    public static ReponseOuverte GetReponseVrais()
+    {
+        return this.ReponseVrais;
+    }
 }

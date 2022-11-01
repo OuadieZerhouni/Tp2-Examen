@@ -6,7 +6,7 @@
 
 using System;
 using  Question;
-using  ReponseOuverte;
+using ReponseOuverte;
 
 
 public class QuestionOuverte:Question
@@ -27,6 +27,19 @@ public class QuestionOuverte:Question
     {
         return this.ReponseVrais ;
     }
+    public static void SetReponse(ReponseOuverte Reponse)
+    {
+        this.Reponse = Reponse;
+    }
+    public static ReponseOuverte GetReponse()
+    {
+        return this.Reponse;
+    }
 
+
+    public static void Repondre(ReponseOuverte Reponse)
+    {
+        SetReponse(Reponse);
+    }
 
 }
