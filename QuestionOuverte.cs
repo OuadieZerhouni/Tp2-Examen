@@ -5,8 +5,10 @@
  ***********************************************************************/
 
 using System;
+using static Question;
 
-public class QuestionOuverte
+
+public class QuestionOuverte:Question
 {
    private ReponseOuverte Reponse;
 

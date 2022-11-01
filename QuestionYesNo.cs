@@ -5,7 +5,7 @@
  ***********************************************************************/
 using System;
 
-public class QuestionYesNo
+public class QuestionYesNo : Question
 {
    private ReponseYesNo Reponse;
 

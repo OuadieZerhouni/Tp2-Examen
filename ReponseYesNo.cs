@@ -6,7 +6,7 @@
 
 using System;
 
-public class ReponseYesNo
+public class ReponseYesNo : Reponse
 {
    private bool Yes;
    private bool No;

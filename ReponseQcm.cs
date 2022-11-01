@@ -6,7 +6,7 @@
 
 using System;
 
-public class ReponseQcm
+public class ReponseQcm : Reponse
 {
    private bool array[] Reponse;
 

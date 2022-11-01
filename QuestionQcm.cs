@@ -6,7 +6,7 @@
 
 using System;
 
-public class QuestionQcm
+public class QuestionQcm : Question
 {
    private string array Propositions;
    private ReponseQcm Reponse;
