@@ -12,10 +12,9 @@ public class Examen
    public Question question;
 
    private int Duree;
-   private String DateDebut;
    private int IdExamen;
 
-    public static void SetDuree(int IdDuree
+    public static void SetDuree(int Duree)
     {
         this.Duree = Duree;
     }
@@ -31,13 +30,7 @@ public class Examen
     {
         return this.IdExamen;
     }
-    public static void SetIdExamen(int Id)
-    {
-        this.IdExamen = Id;
-    }
-    public static int GetIdExamen()
-    {
-        return this.IdExamen;
-    }
+
+    
 
 }

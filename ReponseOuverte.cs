@@ -9,6 +9,8 @@ using Reponse;
 
 public class ReponseOuverte:Reponse
 {
-   private String Reponse;
+   private string Reponse;
+
+    public ReponseOuverte(string Reponse)
 
 }
