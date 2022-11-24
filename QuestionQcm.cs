@@ -9,7 +9,7 @@ using  Question;
 
 public class QuestionQcm : Question
 {
-   private string array Propositions;
+   private string[] Propositions;
    private ReponseQcm Reponse;
 
     public static void SetReponse(ReponseQcm Reponse)

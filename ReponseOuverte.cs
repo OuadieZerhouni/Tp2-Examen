@@ -11,6 +11,6 @@ public class ReponseOuverte:Reponse
 {
    private string Reponse;
 
-    public ReponseOuverte(string Reponse)
+    public ReponseOuverte(string Reponse);
 
 }

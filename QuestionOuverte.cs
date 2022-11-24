@@ -16,7 +16,7 @@ public class QuestionOuverte:Question
 
     public QuestionOuverte(ReponseOuverte ReponseVrais):base()
     {
-        SetReponseVrais(ReponseVrais)
+        SetReponseVrais(ReponseVrais);
 
     }
     public static void SetReponseVrais(ReponseOuverte ReponseVrais)

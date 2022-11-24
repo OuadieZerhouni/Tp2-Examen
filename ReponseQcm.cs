@@ -10,7 +10,7 @@ using Reponse;
 
 public class ReponseQcm : Reponse
 {
-   private bool array[] Reponse;
+   private bool[] Reponse;
 
     
 }
